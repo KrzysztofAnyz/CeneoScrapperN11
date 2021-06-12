@@ -20,3 +20,17 @@
 |Data zakupu produktu|`span.user-post__published > time:nth-child(2)["datetime"]`|purchase_date|str|
 
 3. Pobieranie składowych opinii do pojedynczych zmiennych
+
+## Etap 2 - Pobranie wszystkich opinii z pojedynczej strony
+
+1. Zdefiniowanie słownika do przechowywania składowych pojedynczej opinii
+2. Zdefiniowanie listy do przechowywania słowników z opiniami
+3. Dodanie pętli wykonującej operację ekstrakcji na wszystkich opiniach z pojedynczej strony
+
+## Etap 3 - Pobrania wszystkich opini o produkcie
+1. Dodanie pętli wykonującej operację ekstrakcji opinii z wszystkich stron z opiniami dla danego produktu
+2. Wczytywanie kodu produktu z standardowego wejścia
+3. Parametryzacja adresu stronu z opiniami
+4. Eksport opinii o produkcjie do pliku . json
+
+## Etap 4 - Analiza pobranych opinii
